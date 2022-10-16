@@ -6,3 +6,9 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
+
+// Function to perform addition
+function add(x, y) {
+  return x + y;
+}
+
