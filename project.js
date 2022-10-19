@@ -12,3 +12,9 @@ function add(x, y) {
   return x + y;
 }
 
+
+// Function to perform subtraction
+function subtract(x, y) {
+  return x - y;
+}
+
