@@ -18,3 +18,9 @@ function subtract(x, y) {
   return x - y;
 }
 
+
+// Function to perform multiplication
+function multiply(x, y) {
+  return x * y;
+}
+
