@@ -24,3 +24,12 @@ function multiply(x, y) {
   return x * y;
 }
 
+
+// Function to perform division
+function divide(x, y) {
+  if (y === 0) {
+    return "Cannot divide by zero!";
+  }
+  return x / y;
+}
+
