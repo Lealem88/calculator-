@@ -33,3 +33,7 @@ function divide(x, y) {
   return x / y;
 }
 
+
+// Function to calculate BMI
+function calculateBMI(weight, height) {
+
