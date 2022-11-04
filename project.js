@@ -37,3 +37,6 @@ function divide(x, y) {
 // Function to calculate BMI
 function calculateBMI(weight, height) {
 
+  // Convert height from cm to meters
+  let heightMeters = height / 100;
+
