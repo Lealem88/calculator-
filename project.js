@@ -40,3 +40,8 @@ function calculateBMI(weight, height) {
   // Convert height from cm to meters
   let heightMeters = height / 100;
 
+  // Calculate BMI
+  let bmi = weight / (heightMeters * heightMeters);
+  return bmi.toFixed(2); // Return BMI rounded to 2 decimal places
+}
+
