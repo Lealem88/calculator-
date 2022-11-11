@@ -45,3 +45,8 @@ function calculateBMI(weight, height) {
   return bmi.toFixed(2); // Return BMI rounded to 2 decimal places
 }
 
+
+// Main calculator function
+function startCalculator() {
+  console.log("Welcome to the Calculator!");
+
