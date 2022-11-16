@@ -50,3 +50,6 @@ function calculateBMI(weight, height) {
 function startCalculator() {
   console.log("Welcome to the Calculator!");
 
+
+  rl.question('Enter operation (add/subtract/multiply/divide/bmi): ', (operation) => {
+
