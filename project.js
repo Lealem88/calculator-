@@ -53,3 +53,13 @@ function startCalculator() {
 
   rl.question('Enter operation (add/subtract/multiply/divide/bmi): ', (operation) => {
 
+    if (operation === 'bmi') {
+      rl.question('Enter weight (in kg): ', (weight) => {
+        rl.question('Enter height (in cm): ', (height) => {
+          let bmi = calculateBMI(parseFloat(weight), parseFloat(height));
+          console.log(`BMI: ${bmi}`);
+          rl.close();
+        });
+      });
+    } else {
+
