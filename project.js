@@ -63,3 +63,9 @@ function startCalculator() {
       });
     } else {
 
+      rl.question('Enter first number: ', (num1) => {
+        rl.question('Enter second number: ', (num2) => {
+          num1 = parseFloat(num1);
+          num2 = parseFloat(num2);
+          let result;
+
