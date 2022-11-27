@@ -69,3 +69,9 @@ function startCalculator() {
           num2 = parseFloat(num2);
           let result;
 
+
+          switch (operation) {
+            case 'add':
+              result = add(num1, num2);
+              break;
+
