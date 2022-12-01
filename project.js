@@ -75,3 +75,7 @@ function startCalculator() {
               result = add(num1, num2);
               break;
 
+            case 'subtract':
+              result = subtract(num1, num2);
+              break;
+
