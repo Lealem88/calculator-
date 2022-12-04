@@ -79,3 +79,7 @@ function startCalculator() {
               result = subtract(num1, num2);
               break;
 
+            case 'multiply':
+              result = multiply(num1, num2);
+              break;
+
