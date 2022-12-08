@@ -83,3 +83,7 @@ function startCalculator() {
               result = multiply(num1, num2);
               break;
 
+            case 'divide':
+              result = divide(num1, num2);
+              break;
+
