@@ -87,3 +87,15 @@ function startCalculator() {
               result = divide(num1, num2);
               break;
 
+            default:
+              result = 'Invalid operation';
+          }
+
+          console.log(`Result: ${result}`);
+          rl.close();
+        });
+      });
+    }
+  });
+}
+
